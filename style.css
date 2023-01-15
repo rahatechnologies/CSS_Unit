@@ -1,0 +1,99 @@
+/* 
+parent hierarchy
+browser 
+ -> html
+    -> body
+      -><HTML element /  tag>
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: blue;
+    font-size: 32px;
+} 
+
+#rem{
+    color: red;
+    font-size: 2rem;
+
+
+}
+
+#em{
+    color: brown;
+    font-size: 2em;
+}
+
+#percent {
+    color: blueviolet;
+    font-size: 50%;
+}
+
+#percent_parent {  
+    font-size: 50px;
+}
+
+#percent_grandparent {
+    font-size: 200px;
+}
+
+#absolute_parent{
+    font-size: 48px;
+
+}
+#rem_parent{
+    /* font-size: 48px; */
+
+}
+#em_parent{
+    font-size: 16px;
+
+}
+
+#em_grandparent {
+    font-size: 48px;
+
+}
+
+.navbar{
+    background-color: orange;
+        width: 100vw;
+        height: 20vh;
+        color: brown;
+        font-size: 6rem;
+        font-weight: bolder;
+}
+
+* {
+    margin: 0;
+
+}  
+
+#about{
+    background-color: blueviolet;
+        width: 50vw;
+        /* height: 30vh; */
+        min-height: 30vh;
+        max-height: 60vh;
+        overflow: scroll;
+        scrollbar-width:0;
+}
+
+#outer {
+    background-color: blue;
+    width: 100vw;
+    /* height: 100vh; */
+    height: calc(100vh - 20vh);
+}
+
+/* #inner{
+    background-color:red;
+    width: 50%;
+    height: 50%;
+} */
